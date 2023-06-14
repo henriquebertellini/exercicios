@@ -1,5 +1,5 @@
 let fruta = prompt("Digite uma fruta")
-switch(fruta){
+switch(fruta.toLowerCase()){
     case "maçã":
     alert('Não vendemos essa fruta aqui')
     break;
